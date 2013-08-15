@@ -16,6 +16,7 @@ public class Ruutu {
     public String rivi;
     public int miinojaLahella;
     
+    public static final int NOLLA = 0;
     public static final int YKSI = 1;
     public static final int KAKSI = 2;
     public static final int KOLME = 3;
@@ -55,7 +56,7 @@ public class Ruutu {
         } else if (miinojaLahella == 8) {
             return  "KAHDEKSAN";
         }         
-            
+      return "NOLLA";      
     }
     
     public void miinoitaRuutu(){
